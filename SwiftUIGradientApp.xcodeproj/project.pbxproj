@@ -12,6 +12,7 @@
 		F896F9D426EE341F0075E0FB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F896F9D326EE341F0075E0FB /* Assets.xcassets */; };
 		F896F9D726EE341F0075E0FB /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F896F9D626EE341F0075E0FB /* Preview Assets.xcassets */; };
 		F896F9DF26EE34710075E0FB /* SliderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F896F9DE26EE34710075E0FB /* SliderView.swift */; };
+		F896F9E326EE468A0075E0FB /* ColoredView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F896F9E226EE468A0075E0FB /* ColoredView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		F896F9D626EE341F0075E0FB /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		F896F9D826EE341F0075E0FB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F896F9DE26EE34710075E0FB /* SliderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SliderView.swift; sourceTree = "<group>"; };
+		F896F9E226EE468A0075E0FB /* ColoredView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColoredView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,11 +57,12 @@
 			isa = PBXGroup;
 			children = (
 				F896F9CF26EE341E0075E0FB /* SwiftUIGradientAppApp.swift */,
+				F896F9E226EE468A0075E0FB /* ColoredView.swift */,
+				F896F9DE26EE34710075E0FB /* SliderView.swift */,
 				F896F9D126EE341E0075E0FB /* ContentView.swift */,
 				F896F9D326EE341F0075E0FB /* Assets.xcassets */,
 				F896F9D826EE341F0075E0FB /* Info.plist */,
 				F896F9D526EE341F0075E0FB /* Preview Content */,
-				F896F9DE26EE34710075E0FB /* SliderView.swift */,
 			);
 			path = SwiftUIGradientApp;
 			sourceTree = "<group>";
@@ -144,6 +147,7 @@
 				F896F9DF26EE34710075E0FB /* SliderView.swift in Sources */,
 				F896F9D226EE341E0075E0FB /* ContentView.swift in Sources */,
 				F896F9D026EE341E0075E0FB /* SwiftUIGradientAppApp.swift in Sources */,
+				F896F9E326EE468A0075E0FB /* ColoredView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

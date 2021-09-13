@@ -9,9 +9,9 @@ import SwiftUI
 
 struct ColoredView: View {
     
-    var redValue: Double
-    var greenValue: Double
-    var blueValue: Double
+    let redValue: Double
+    let greenValue: Double
+    let blueValue: Double
     
     var body: some View {
         RoundedRectangle(cornerRadius: 25)
